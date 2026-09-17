@@ -2,16 +2,16 @@
 
 # Overview
 - This project answers a highly debated question within the NFL analytics community.
-- In the modern NFL, salary cap management is the most important factor in a team's success, can make or break a NFL teams roster being contenders or failures. Since the cap space is obviously not unlimited, every single contract offered can take away the opportunity to upgrade needed positions. Since premium running backs can be offered gigantic contract offers that can eat up salary cap, it has created a debate if offering a running back a massive deal is worth it or could that money be spent elsewhere.
+- In the modern NFL, salary cap management is the most important factor in a team's success, it can make or break a NFL teams roster being contenders or regular failures. Since the cap space is obviously not unlimited, every single contract offered can take away the opportunity to upgrade needed positions. Since premium running backs can be offered gigantic contract offers that can eat up salary cap, it has created a debate if offering a running back a massive deal is worth it or could that money be spent elsewhere.
 - This is a project designed to analyze the value of high paying running backs to a NFL team and if this investment results in playoff success.
 
 # Motivation
 - There has been a movement in the NFL community that has grown in recent years of an anti-running back movement. Essentially this is the idea that if you have the chance to save money by getting similar production from a top tier running back using a running back committee you go for it and use the money elsewhere to upgrade on other positions on the team.
-- This data-driven approach adds value to the debate since nowadays sports teams and moves within the world of sports is being decided by analytics.
+- This data-driven approach adds value to the debate since nowadays sports teams and moves within the world of sports is being decided by analytics and stats.
 
 # Data sources
-- Spotrac (https://www.spotrac.com/): the largest online sports database that provides detailed, up-to-date information on professional sports contracts, team payrolls, and salary caps
-- Pro Football Reference (https://www.pro-football-reference.com/): a comprehensive online database for American football statistics, covering NFL, AFL, and historical data.
+- Spotrac (https://www.spotrac.com/): One the largest online sports database that provides detailed, up-to-date information on professional sports contracts, team payrolls, and salary caps.
+- Pro Football Reference (https://www.pro-football-reference.com/): A comprehensive online database for American football statistics, covering NFL, AFL, and historical data.
 
 - All the data used in this project was manually collected and inputted into a spreadsheet.
 
@@ -19,12 +19,12 @@
 The 2011 CBA introduced the current rookie wage scale and standardized NFL contract structures, making salary data consistent and comparable across all seasons. This makes 2011 the most logical starting point for this type of analysis. Spotrac's reliable historical salary data also begins around this period.
 
 # Project Structure
-- `csv_files/` — raw data files used to populate the database
+- `csv_files/` — Raw data files used to populate the database
 - `database/` — SQLite database and all Python scripts for setup, loading, and querying data
-- `charts/` — generated chart images from the analysis
-- `visuals/` — script used to generate the charts
+- `charts/` — Generated chart images from the analysis
+- `visuals/` — Script used to generate the charts
 - `rb_analysis.ipynb` — Jupyter notebook containing the full analysis and findings
-- `requirements.txt` — list of dependencies needed to run the project
+- `requirements.txt` — List of dependencies needed to run the project
 
 # How to Run
 1. Clone the repository
